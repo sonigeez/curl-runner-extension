@@ -2,7 +2,7 @@
   "name": "curl-runner",
   "displayName": "Curl Runner",
   "description": "A vscode extension that allows you to run curl commands directly from your code comments.",
-  "publisher": "anokha-labs-pvt-ltd",
+  "publisher": "AnokhaLabs",
   "icon": "asset/curl-runner-logo.jpg",
   "galleryBanner": {
     "color": "#617A91",
