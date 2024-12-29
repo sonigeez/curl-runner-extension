@@ -1,14 +1,30 @@
 {
   "name": "curl-runner",
-  "displayName": "curl-runner",
-  "description": "",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.96.0"
+  "displayName": "Curl Runner",
+  "description": "A vscode extension that allows you to run curl commands directly from your code comments.",
+  "publisher": "anokha-labs-pvt-ltd",
+  "icon": "asset/curl-runner-logo.jpg",
+  "galleryBanner": {
+    "color": "#617A91",
+    "theme": "dark"
   },
-  "categories": [
-    "Other"
+  "license": "MIT",
+  "keywords": [
+    "curl",
+    "http",
+    "request",
+    "rest",
+    "api",
+    "vscode"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonigeez/curl-runner-extension"
+  },
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
@@ -30,6 +46,12 @@
       }
     ]
   },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Testing",
+    "Other"
+  ],
   "activationEvents": [
     "onLanguage:javascript",
     "onLanguage:python",
@@ -47,7 +69,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.96.0",
+    "@types/vscode": "^1.84.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.17.0",
